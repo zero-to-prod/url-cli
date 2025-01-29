@@ -1,6 +1,6 @@
 <?php
 
-namespace Zerotoprod\UrlCli;
+namespace Zerotoprod\UrlCli\Parse;
 
 use Zerotoprod\DataModel\DataModel;
 
