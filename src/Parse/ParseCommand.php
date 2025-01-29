@@ -1,6 +1,6 @@
 <?php
 
-namespace Zerotoprod\UrlCli;
+namespace Zerotoprod\UrlCli\Parse;
 
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
