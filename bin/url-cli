@@ -2,12 +2,12 @@
 <?php
 
 use Symfony\Component\Console\Application;
-use Zerotoprod\:namespace\:namespace;
+use Zerotoprod\UrlCli\UrlCli;
 
 require getcwd().'/vendor/autoload.php';
 
 $Application = (new Application());
 
-:namespace::register($Application);
+UrlCli::register($Application);
 
 $Application->run();
