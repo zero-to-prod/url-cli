@@ -10,13 +10,22 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Zerotoprod\Url\Url;
 
+/**
+ * @link https://github.com/zero-to-prod/url-cli
+ */
 #[AsCommand(
     name: ParseCommand::signature,
     description: 'Parses a URL string and ensures that it starts with a supported protocol.'
 )]
 class ParseCommand extends Command
 {
+    /**
+     * @link https://github.com/zero-to-prod/url-cli
+     */
     public const signature = 'url-cli:parse';
+    /**
+     * @link https://github.com/zero-to-prod/url-cli
+     */
     public const url = 'url';
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -37,6 +46,9 @@ class ParseCommand extends Command
         return Command::SUCCESS;
     }
 
+    /**
+     * @link https://github.com/zero-to-prod/url-cli
+     */
     public function configure(): void
     {
         $this->addArgument(ParseOptions::url, InputArgument::REQUIRED);
