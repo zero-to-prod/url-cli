@@ -35,7 +35,8 @@
     "php": ">=8.1",
     "ext-json": "*",
     "symfony/console": "^7.2",
-    "zero-to-prod/url": "^71.2"
+    "zero-to-prod/url": "^82.0",
+    "zero-to-prod/data-model": "^81.10"
   },
   "autoload": {
     "psr-4": {
